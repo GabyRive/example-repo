@@ -36,9 +36,28 @@ var x = Number(prompt('What you want as your number?'));
 console.log(x % 2);
 //Exercise 5 (stuck)
 var prompt = require('prompt-sync')();
-var x = Number(prompt('What you want as your first number?'));
-var y = Number(prompt('What you want as your second number?'));
-console.log(x/y, y/x);
+
+var x = Number(prompt('Which is the first number you would like to use?'));
+var y = Number(prompt('Which is the second number you would like to use?'));
+
+function switcharooX(x, y) {
+  if (x % y === 0) {
+    console.log("yes");
+  } else {
+    console.log("no");
+  }
+}
+
+function switcharooY(x, y) {
+  if (y % x === 0) {
+    console.log("yes");
+  } else {
+    console.log("no");
+  }
+}
+
+switcharooX(x,y);
+switcharooY(x,y);
 //Exercise 6
 var prompt = require('prompt-sync')();
 var A = Number(prompt('How many ounces of Medalla did you had?'));
