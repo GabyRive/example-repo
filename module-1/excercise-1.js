@@ -34,7 +34,7 @@ console.log(x - y);
 var prompt = require('prompt-sync')();
 var x = Number(prompt('What you want as your number?'));
 console.log(x % 2);
-//Exercise 5 (stuck)
+//Exercise 5
 var prompt = require('prompt-sync')();
 
 var x = Number(prompt('Which is the first number you would like to use?'));
