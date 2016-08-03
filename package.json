@@ -1,0 +1,24 @@
+{
+  "name": "example-repo",
+  "version": "1.0.0",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabyRive/example-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabyRive/example-repo/issues"
+  },
+  "homepage": "https://github.com/GabyRive/example-repo#readme",
+  "dependencies": {
+    "prompt-sync": "^4.1.4"
+  },
+  "devDependencies": {},
+  "description": ""
+}
